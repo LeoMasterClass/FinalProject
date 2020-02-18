@@ -7,7 +7,7 @@
             </ul>
         </div>
 
-        <a class="bandeau-header" href="index.php"><img src="../public/img/index/Bandeaulogo.png" alt=""></a>
+        <a class="bandeau-header" href="index.php"><img src="public/img/index/Bandeaulogo.png" alt=""></a>
 
         <nav class="barre-navigation">
             <ul>
