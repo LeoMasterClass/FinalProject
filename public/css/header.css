@@ -1,0 +1,58 @@
+body{
+    margin: 0 0;
+    padding: 0 0; 
+}
+
+/* alignement barre-connexion barre-navigation */
+.barre-connexion ul,.barre-navigation ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+/* fin */
+
+/* Gestion du header */
+.barre-connexion ul{
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.barre-connexion ul li{
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+.barre-connexion ul li a,
+.barre-navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.bandeau-header{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+.bandeau-header img {
+    max-width: 1000px;
+}
+
+.barre-navigation{
+    background-color: cadetblue;
+}
+
+.barre-navigation ul{
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.barre-navigation ul li{
+    font-size: 1.3rem;
+    padding: 15px 25px;
+    margin: 0 5px;
+    background-color: bisque;
+}
+/* fin */
