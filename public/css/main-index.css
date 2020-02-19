@@ -33,7 +33,7 @@
     font-size: 1.7rem;
     width: 10%;
     text-align: center;
-    margin-left: 50%;
+    text-decoration: none;
     position: absolute;
     border: 1px solid white;
     bottom:  50px;
@@ -52,6 +52,16 @@
 }
 .articlevente{
     position: relative;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+.articlevente:hover img{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .lienarticle{
     position: absolute;
@@ -62,4 +72,55 @@
     color: black;
     text-decoration: none;
     background-color: rgba(255, 255, 255,0.3);
+}
+/* fin */
+/* SECTION ARTICLE */
+.articlesI{
+    max-width: 850px;
+    width: 100%;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 40px;
+}
+.article-i{
+    border-bottom: 1px solid grey;
+    padding-top: 40px;
+    padding-bottom: 40px ;
+}
+.article-i img{
+    max-width: 850px;
+}
+.article-i h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.article-i p{
+    font-size: 1.2rem;
+}
+.article-i a{
+    text-decoration: none;
+    border: 1px solid rgb(180,138,93);
+    color: rgb(180,138,93);
+    font-size: 1.5rem;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    margin: 0 auto;
+}
+/* fin */
+/* assamblage artcilesI et asideI */
+.part2{
+    display: flex;
+    flex-direction: row;
+}
+/* aside */
+.asideI{
+    max-width: 300px;
+    width: 100%;
+}
+.asideI h2{
+    text-align: center;
 }

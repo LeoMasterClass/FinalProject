@@ -6,6 +6,7 @@
     <title>CatEvents</title>
     <link rel="stylesheet" href="public/css/header.css">
     <link rel="stylesheet" href="public/css/main-index.css">
+    <link rel="stylesheet" href="public/css/footer.css">
 </head>
 
 

@@ -1,7 +1,7 @@
 body{
     margin: 0 0;
     padding: 0 0; 
-    background-color: cadetblue;
+    background-color: rgb(235, 198, 142);
 }
 
 /* alignement barre-connexion barre-navigation */
@@ -13,6 +13,9 @@ body{
 /* fin */
 
 /* Gestion du header */
+.barre-connexion{
+    background-color: white;
+}
 .barre-connexion ul{
     justify-content: flex-end;
     max-width: 1200px;
@@ -21,7 +24,7 @@ body{
 
 .barre-connexion ul li{
     padding: 10px 15px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .barre-connexion ul li a,
@@ -42,7 +45,7 @@ body{
 }
 
 .barre-navigation{
-    background-color: cadetblue;
+    background-color: rgb(235, 198, 142);
 }
 
 .barre-navigation ul{
